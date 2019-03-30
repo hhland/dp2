@@ -25,9 +25,9 @@ public class MyTask implements Runnable {
                 phaseBarrier.await();
             }
         } catch (InterruptedException e) {
-            e.printStackTrace();
+              
         } catch (BrokenBarrierException e) {
-            e.printStackTrace();
+              
         } finally {
             doneLatch.countDown();
         }

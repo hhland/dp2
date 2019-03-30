@@ -6,7 +6,7 @@ public class Main {
         try {
             new MiniServer(8888).execute();
         } catch (IOException e) {
-            e.printStackTrace();
+              
         }
     }
 }

@@ -19,7 +19,7 @@ public class Main {
             // 等待线程终止
             t.join();
         } catch (InterruptedException e) {
-            e.printStackTrace();
+              
         }
         System.out.println("main: END");
     }

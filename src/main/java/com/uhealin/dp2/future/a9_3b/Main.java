@@ -35,7 +35,7 @@ public class Main {
             }
             out.close();
         } catch (IOException e) {
-            e.printStackTrace();
+              
         }
     }
 }

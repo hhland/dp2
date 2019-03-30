@@ -9,9 +9,9 @@ public class Main {
             System.out.println("execute BEGIN");
             host.execute();
         } catch (TimeoutException e) {
-            e.printStackTrace();
+              
         } catch (InterruptedException e) {
-            e.printStackTrace();
+              
         }
     }
 }

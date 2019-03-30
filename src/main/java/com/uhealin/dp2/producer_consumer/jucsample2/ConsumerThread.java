@@ -30,7 +30,7 @@ public class ConsumerThread extends Thread {
                 }
             }
         } catch (InterruptedException e) {
-            e.printStackTrace();
+              
         }
     }
 }

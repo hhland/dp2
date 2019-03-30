@@ -8,7 +8,7 @@ public class Main {
                 try {
                     Host.execute(100);
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                      
                 }
                 System.out.println("Host.execute END");
             }

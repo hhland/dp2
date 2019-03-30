@@ -14,7 +14,7 @@ public class Main {
 
             System.out.println("main END");
         } catch (Exception e) {
-            e.printStackTrace();
+              
         }
     }
 }

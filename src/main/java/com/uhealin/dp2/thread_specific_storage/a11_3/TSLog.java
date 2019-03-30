@@ -11,7 +11,7 @@ public class TSLog {
         try {
             writer = new PrintWriter(new FileWriter(filename));
         } catch (IOException e) {
-            e.printStackTrace();
+              
         }
     }
 

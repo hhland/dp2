@@ -25,14 +25,14 @@ public class MiniServer {
                             try {
                                 Service.service(clientSocket);
                             } catch (IOException e) {
-                                e.printStackTrace();
+                                  
                             }
                         }
                     }
                 );
             }
         } catch (IOException e) {
-            e.printStackTrace();
+              
         } finally {
             executorService.shutdown();
             serverSocket.close();

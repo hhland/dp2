@@ -15,7 +15,7 @@ public class FutureData extends FutureTask<RealData> implements Data {
         try {
             string = get().getContent();
         } catch (InterruptedException e) {
-            e.printStackTrace();
+              
         }
         return string;
     }

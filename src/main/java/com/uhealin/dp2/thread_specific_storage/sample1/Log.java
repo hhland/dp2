@@ -11,7 +11,7 @@ public class Log {
         try {
             writer = new PrintWriter(new FileWriter("log.txt"));
         } catch (IOException e) {
-            e.printStackTrace();
+              
         }
     }
 

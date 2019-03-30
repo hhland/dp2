@@ -48,7 +48,7 @@ public class CountupThread extends Thread {
             writer.write("counter = " + counter);
             writer.close();
         } catch (IOException e) {
-            e.printStackTrace();
+              
         }
         System.out.println("doShutdown: Save END");
     }

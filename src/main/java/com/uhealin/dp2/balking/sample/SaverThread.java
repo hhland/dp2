@@ -15,9 +15,9 @@ public class SaverThread extends Thread {
                 Thread.sleep(1000);     // 休眠约1秒
             }
         } catch (IOException e) {
-            e.printStackTrace();
+              
         } catch (InterruptedException e) {
-            e.printStackTrace();
+              
         }
     }
 }

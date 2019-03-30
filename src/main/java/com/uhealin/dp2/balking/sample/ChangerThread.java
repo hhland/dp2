@@ -18,9 +18,9 @@ public class ChangerThread extends Thread {
                 data.save();                        // 显式地保存
             }
         } catch (IOException e) {
-            e.printStackTrace();
+              
         } catch (InterruptedException e) {
-            e.printStackTrace();
+              
         }
     }
 }

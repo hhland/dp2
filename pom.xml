@@ -4,4 +4,36 @@
   <artifactId>dp2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>dp2</name>
+  
+  <properties>
+  
+  
+<maven.compiler.source>11</maven.compiler.source>
+ 
+<maven.compiler.target>11</maven.compiler.target>
+  
+  <mina.version>2.1.0</mina.version>
+  
+  </properties>
+  
+  
+  <dependencies>
+  
+
+
+  <!-- https://mvnrepository.com/artifact/org.apache.mina/mina-core -->
+<dependency>
+    <groupId>org.apache.mina</groupId>
+    <artifactId>mina-core</artifactId>
+    <version>${mina.version}</version>
+</dependency>
+  
+
+
+
+
+  
+  
+  </dependencies>
+  
 </project>

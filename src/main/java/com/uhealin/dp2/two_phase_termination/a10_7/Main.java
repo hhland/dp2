@@ -18,7 +18,7 @@ public class Main {
             System.out.println("main: join");
             t.join();
         } catch (InterruptedException e) {
-            e.printStackTrace();
+              
         }
         System.out.println("main: END");
     }

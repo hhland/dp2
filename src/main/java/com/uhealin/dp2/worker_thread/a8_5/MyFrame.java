@@ -52,7 +52,7 @@ public class MyFrame extends JFrame implements ActionListener {
 
                         Thread.sleep(1000);
                     } catch (Exception e) {
-                        e.printStackTrace();
+                          
                     }
                 }
                 System.out.println(Thread.currentThread().getName() + ":invokerThread:END");

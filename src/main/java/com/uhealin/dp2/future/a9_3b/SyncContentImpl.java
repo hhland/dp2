@@ -32,7 +32,7 @@ class SyncContentImpl implements Content {
             contentbytes = new byte[index];
             System.arraycopy(buffer, 0, contentbytes, 0, index);
         } catch (Exception e) {
-            e.printStackTrace();
+              
         }
     }
     public byte[] getBytes() {
